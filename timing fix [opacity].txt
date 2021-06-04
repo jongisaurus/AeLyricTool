@@ -1,0 +1,3 @@
+if (text.animator("Fade Out").enabled == true) {
+	text.animator("Fade Out").property.opacity;
+}else{100}

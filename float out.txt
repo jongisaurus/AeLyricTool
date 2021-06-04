@@ -1,0 +1,25 @@
+t = thisComp.layer("TEXT CONTROLLER").effect("LINES TO SHOW")("Slider");
+l = thisComp.layer("TEXT CONTROLLER").effect("FADE LENGTH")("Slider");
+v = thisComp.layer("TEXT CONTROLLER").effect("VISIBILITY LENGTH")("Slider");
+
+if (thisComp.layer("TEXT CONTROLLER").effect("LINE NUMBER")("Slider").numKeys > 0){
+i = thisComp.layer("TEXT CONTROLLER").effect("LINE NUMBER")("Slider").nearestKey(time).index;
+n = thisComp.layer("TEXT CONTROLLER").effect("LINE NUMBER")("Slider").key(i).time;
+s = thisComp.layer("TEXT CONTROLLER").effect("LINE NUMBER")("Slider").key(i).value;
+}
+
+
+if (time < n && i-1 > 0){
+	i = i-1;
+	n = thisComp.layer("TEXT CONTROLLER").effect("LINE NUMBER")("Slider").key(i).time;
+	s = thisComp.layer("TEXT CONTROLLER").effect("LINE NUMBER")("Slider").key(i).value;
+}
+
+if (time < n && i-1 == 0){
+	s = 0;
+}
+
+if (time >= n && time > l+n+v){
+	easeOut(time,n+l+v,n+2*l+v,s,s+t)
+}else{0}
+
