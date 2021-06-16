@@ -30,6 +30,9 @@ To "disable" an animator, you may delete it, but I would recommend setting it ba
 
 To have the text appear and disappear instantaneously without having to configure/disable all the animators, simply set the **"In/Out Animation Length"** slider to 0 (a zero second animation).
 
+If you would like, I've included some simple text paths on the **"SOURCE TEXT"** layer, and you can animate those as you normally would.
+(You'll need to un-hide and animate the word-based layer if you're using that; no current capabilities to parent those two together but won't be an issue if I simplify the expressions to only needing a single layer)
+
 Lastly, if you wish to place the text/controller into another composition, you may do so by copy/pasting from the default **"TEXT"** composition.
 (Just be sure to copy all three layers, there is a hidden one that handles the word-based animation)
 
