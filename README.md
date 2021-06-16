@@ -3,6 +3,8 @@ A simple, one-keyframe tool to easily make lyric videos, add subtitles, or provi
 Maybe I'll compile this into an actual plugin at some point and use github like a normal person, but for now I'm backing everything up like this.
 (Written in Ae v.17.1.3 build 41)
 
+**Alt. Download Mirror:** https://drive.google.com/file/d/1Lp9YY5OuQqJADWaOLgjDV9zuE2IlNQVs/view?usp=sharing
+
 
 **Overview:**
 This tool is meant to provide nice looking text animations with minimal user input and is ideal for those needing to animate a lot of text, those looking for tools to add efficiencies to their workflow, and those new to the program.
