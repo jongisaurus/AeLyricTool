@@ -12,7 +12,7 @@ Now, keyframes always behave as with the hold interpolation, so that step-wise m
 In short, one just needs to set keyframes where they desire a particular line of text to animate on screen and the animation parameters will handle the rest.
 
 
-**How to Use**
+**How to Use:**
 First, you'll want to check the **"Text Edit Mode"** box on the **"TEXT CONTROLLER"** layer so you may enter your text (formatted with line breaks) into the **"SOURCE TEXT"** layer.
 (I may set up automatic line breaks in the future if that seems useful)
 
@@ -31,7 +31,7 @@ Lastly, if you wish to place the text/controller into another composition, you m
 (Just be sure to copy all three layers, there is a hidden one that handles the word-based animation)
 
 
-**Thank You**
+**Thank You:**
 I appreciate you checking out my expression template and I hope it could be of some use!
 
 Making this work entirely through expressions was a little janky, so please let me know of any bugs (in my spaghetti code) that I overlooked!
