@@ -1,6 +1,7 @@
 # AeLyricTool
 A simple, one-keyframe tool to easily make lyric videos, add subtitles, or provide CC using a text layer containing your entire transcription.
 Maybe I'll compile this into an actual plugin at some point and use github like a normal person, but for now I'm backing everything up like this.
+(Written in Ae v.17.1.3 build 41)
 
 
 **Overview:**
