@@ -1,3 +1,0 @@
-if (text.animator("Float Out").enabled == true) {
-	text.animator("Float Out").property.position;
-}else{[0,0]}
